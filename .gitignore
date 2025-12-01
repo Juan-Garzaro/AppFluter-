@@ -1,11 +1,74 @@
-.idea/
-frontend/.dart_tool/
-frontend/build/
-frontend/android/.gradle/
-frontend/android/local.properties
-frontend/ios/Pods/
-frontend/.flutter-plugins
-frontend/.flutter-plugins-dependencies
+############################
+#       NODE.JS (backend)
+############################
 backend/node_modules/
+backend/npm-debug.log
+backend/yarn-error.log
 backend/.env
 backend/database.sqlite
+
+############################
+#       FLUTTER (frontend)
+############################
+# Misc
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VSCode — opcional si quieres ignorar
+#.vscode/
+
+# Flutter/Dart/Pub
+frontend/**/doc/api/
+frontend/**/ios/Flutter/.last_build_id
+frontend/.dart_tool/
+frontend/.flutter-plugins-dependencies
+frontend/.flutter-plugins
+frontend/.pub-cache/
+frontend/.pub/
+frontend/build/
+frontend/coverage/
+
+# Android builds
+frontend/android/.gradle/
+frontend/android/app/build/
+frontend/android/local.properties
+/frontend/android/app/debug
+/frontend/android/app/profile
+/frontend/android/app/release
+
+# iOS builds
+frontend/ios/Pods/
+frontend/ios/Flutter/Flutter.framework
+frontend/ios/Flutter/Flutter.podspec
+
+# Symbolication
+frontend/app.*.symbols
+
+# Obfuscation
+frontend/app.*.map.json
+
+############################
+#        GENERAL
+############################
+*.lock
+*.tmp
+*.sqlite
+*.db
+logs/
+
