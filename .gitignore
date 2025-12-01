@@ -1,0 +1,74 @@
+############################
+#       NODE.JS
+############################
+node_modules/
+npm-debug.log
+yarn-error.log
+.env
+database.sqlite
+
+############################
+#       FLUTTER
+############################
+# Misc
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VSCode — opcional si quieres ignorar
+#.vscode/
+
+# Flutter/Dart/Pub
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.flutter-plugins
+.pub-cache/
+.pub/
+build/
+coverage/
+
+# Android builds
+android/.gradle/
+android/app/build/
+android/local.properties
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# iOS builds
+ios/Pods/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+
+# Symbolication
+app.*.symbols
+
+# Obfuscation
+app.*.map.json
+
+############################
+#        GENERAL
+############################
+*.lock
+*.tmp
+*.sqlite
+*.db
+logs/
+
